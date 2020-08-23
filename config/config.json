@@ -1,0 +1,6 @@
+{
+  "title": "Sinatra JSON API",
+  "listing": {
+    "itemsPerPage": 25
+  }
+}
