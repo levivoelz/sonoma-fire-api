@@ -11,8 +11,3 @@ Dir['./app/helpers/**/*.rb'].each { |file| require file }
 Dir['./app/models/**/*.rb'].each { |file| require file }
 Dir['./app/controllers/**/*.rb'].each { |file| require file }
 Dir['./services/**/*.rb'].each { |file| require file }
-
-# initializers
-Scraper.new.tap do |s|
-  s.run
-end
